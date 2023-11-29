@@ -1,3 +1,5 @@
+'use server'
+
 import { UserButton, currentUser } from "@clerk/nextjs";
 
 import { fetchPosts } from "@/lib/actions/thread.actions";
