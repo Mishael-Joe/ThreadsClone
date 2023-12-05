@@ -22,7 +22,7 @@ async function page({ params }: { params: { id: string }}) {
       accountId={userInfo.id}
       authUserId={userInfo.id}
       name={userInfo.name}
-      usename={userInfo.usename}
+      username={userInfo.username}
       imgUrl={userInfo.image}
       bio={userInfo.bio}
       />
